@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Monthly Challenges</h1>
+        
+        <div class="form-container">
+            <h2>Add New Challenge</h2>
+            <form id="challengeForm">
+                <input type="text" id="month" placeholder="Month" required>
+                <textarea id="description" placeholder="Challenge Description" required></textarea>
+                <button type="submit">Add Challenge</button>
+            </form>
+        </div>
+        
+        <div class="challenges-container">
+            <h2>Your Challenges</h2>
+            <div id="challengesList"></div>
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
